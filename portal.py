@@ -140,7 +140,7 @@ with col2:
     
     st.link_button(
         "📝 FORMULARIO REGISTRO", 
-        "https://docs.google.com/spreadsheets/d/1xcATaxfbrREwp83kQ5eGr_cjG8V2GElEF7JZD7puK9E/edit?usp=sharing"
+        "https://docs.google.com/forms/d/e/1FAIpQLScY9Y9zsbNmmDkUmuLBf50NFjQEDFMbCsfqshna3gkxnabUhg/viewform?usp=dialog"
     )
 
 st.divider()
