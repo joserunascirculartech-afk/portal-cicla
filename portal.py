@@ -124,7 +124,7 @@ with col1:
     
     st.link_button(
         "📝 FORMULARIO INGRESO", 
-        "https://docs.google.com/forms/d/1S4Zk4okBkpDWb92ynXVWl18UGVz6fY91eAYpCvbmkZM/edit"
+        "https://docs.google.com/forms/d/e/1FAIpQLScY9Y9zsbNmmDkUmuLBf50NFjQEDFMbCsfqshna3gkxnabUhg/viewform?usp=header"
     )
 
 # === COLUMNA 2: TABLERO CICLA ===
