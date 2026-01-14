@@ -124,7 +124,7 @@ with col1:
     
     st.link_button(
         "📝 FORMULARIO INGRESO", 
-        "https://docs.google.com/forms/d/e/1FAIpQLSe98Z6PkrIJhHmO5ppWFFxiXvHk2QrsVZX3nWyAY6Tw8UZ12Q/viewform?usp=header"
+        "https://docs.google.com/forms/d/1S4Zk4okBkpDWb92ynXVWl18UGVz6fY91eAYpCvbmkZM/edit"
     )
 
 # === COLUMNA 2: TABLERO CICLA ===
@@ -140,7 +140,7 @@ with col2:
     
     st.link_button(
         "📝 FORMULARIO REGISTRO", 
-        "https://docs.google.com/forms/d/e/1FAIpQLScY9Y9zsbNmmDkUmuLBf50NFjQEDFMbCsfqshna3gkxnabUhg/viewform?usp=header"
+        "https://docs.google.com/spreadsheets/d/1xcATaxfbrREwp83kQ5eGr_cjG8V2GElEF7JZD7puK9E/edit?usp=sharing"
     )
 
 st.divider()
