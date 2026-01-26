@@ -16,7 +16,9 @@ GRIS_TEXTO = "#666666"   # Gris oscuro para textos
 COLOR_PRINCIPAL = AZUL_CICLA 
 
 # --- CONFIGURACIÓN DE PÁGINA ---
-st.set_page_config(page_title="Portal CICLA 3D", page_icon=URL_LOGO, layout="centered")
+st.set_page_config(page_title="Portal CICLA 3D", page_icon=URL_LOGO, layout="wide") 
+# NOTA: Cambié layout="centered" a "wide" para que quepan bien las 3 columnas.
+# Si prefieres el diseño angosto, cámbialo de nuevo a "centered".
 
 # ==========================================
 # 🔐 SISTEMA DE SEGURIDAD
@@ -108,8 +110,8 @@ with col_L2:
 
 st.divider()
 
-# 3. BOTONES DE ACCESO
-col1, col2 = st.columns(2)
+# 3. BOTONES DE ACCESO (AHORA 3 COLUMNAS)
+col1, col2, col3 = st.columns(3)
 
 # === COLUMNA 1: SERVICIO TÉCNICO ===
 with col1:
@@ -141,6 +143,17 @@ with col2:
     st.link_button(
         "📝 FORMULARIO REGISTRO", 
         "https://docs.google.com/forms/d/e/1FAIpQLScY9Y9zsbNmmDkUmuLBf50NFjQEDFMbCsfqshna3gkxnabUhg/viewform?usp=dialog"
+    )
+
+# === COLUMNA 3: STOCK FILAMENTOS (NUEVO) ===
+with col3:
+    st.markdown(f"### 📦 Stock Filamentos")
+    st.info("Control de inventario en tiempo real.")
+    
+    st.link_button(
+        "🚀 APP STOCK", 
+        "https://burgi-cicla-tg7qdjfgc2rnd4zoa7r7np.streamlit.app",
+        type="primary"
     )
 
 st.divider()
